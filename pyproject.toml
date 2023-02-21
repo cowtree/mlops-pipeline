@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "mlops-pipeline"
+version = "0.0.1"
+description = "MLOps pipeline for ML automation"
+authors = ["cowtree <huycaotrido@gmail.com>"]
+readme = "README.md"
+packages = [{include = "mlops_pipeline"}]
+
+[tool.poetry.dependencies]
+python = "3.10.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
